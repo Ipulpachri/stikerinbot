@@ -21,7 +21,7 @@ const defaultMenu = {
 ├ Uptime: *%uptime (%muptime)*
 ├ Database: %rtotalreg dari %totalreg
 ├ Github:
-├ %github
+├ https://github.com/Ipulpachri
 └────
 %readmore`.trimStart(),
   header: '┌─〔 %category 〕',
@@ -197,97 +197,97 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
               "rows": [
                 {
                   "title": `Semua Perintah`,
-                  "description": "",
+                  "description": "All Menu",
                   "rowId": `${_p}? all`
                 }, {
                   "title": "Game",
-                  "description": "",
+                  "description": "Menu Game",
                   "rowId": `${_p}? game`
 
                 }, {
                   "title": "XP",
-                  "description": "",
+                  "description": "Menu XP",
                   "rowId": `${_p}? xp`
 
                 }, {
                   "title": "Stiker",
-                  "description": "",
+                  "description": "Menu Sticker",
                   "rowId": `${_p}? stiker`
                 }, {
                   "title": "Kerang Ajaib",
-                  "description": "",
+                  "description": "Menu Kerang",
                   "rowId": `${_p}? kerangajaib`
                 }, {
                   "title": "Quotes",
-                  "description": "",
+                  "description": "Menu Quotes",
                   "rowId": `${_p}? quotes`
                 }, {
                   "title": "Admin",
-                  "description": "",
+                  "description": "Menu Admin",
                   "rowId": `${_p}? admin`
                 }, {
                   "title": "Grup",
-                  "description": "",
+                  "description": "Menu Grup",
                   "rowId": `${_p}? grup`
                 }, {
                   "title": "Premium",
-                  "description": "",
+                  "description": "Menu Premium",
                   "rowId": `${_p}? premium`
                 }, {
                   "title": "Internet",
-                  "description": "",
+                  "description": "Menu Internet",
                   "rowId": `${_p}? internet`
                 }, {
                   "title": "Anonymous",
-                  "description": "",
+                  "description": "Menu Anonymous",
                   "rowId": `${_p}? anonymous`
                 }, {
                   "title": "Nulis & Logo",
-                  "description": "",
+                  "description": "Menu Nulis & Logo",
                   "rowId": `${_p}? nulis`
                 }, {
                   "title": "Downloader",
-                  "description": "",
+                  "description": "Menu Download",
                   "rowId": `${_p}? downloader`
                 }, {
                   "title": "Tools",
-                  "description": "",
+                  "description": "Menu Tools",
                   "rowId": `${_p}? tools`
                 }, {
                   "title": "Fun",
-                  "description": "",
+                  "description": "Menu Fun",
                   "rowId": `${_p}? fun`
                 }, {
                   "title": "Database",
-                  "description": "",
+                  "description": "Menu Database",
                   "rowId": `${_p}? database`
                 }, {
                   "title": "Vote & Absen",
-                  "description": "",
+                  "description": "Menu Vote",
                   "rowId": `${_p}? vote`
                 }, {
                   "title": "Al-Qur\'an",
-                  "description": "",
+                  "description": "Menu Quran",
                   "rowId": `${_p}? quran`
                 }, {
                   "title": "Pengubah Suara",
-                  "description": "",
+                  "description": "Menu Pengubah Suara",
                   "rowId": `${_p}? audio`
                 }, {
                   "title": "Jadi Bot",
-                  "description": "",
+                  "description": "Menu Jadibot",
                   "rowId": `${_p}? jadibot`
                 }, {
                   "title": "Info",
-                  "description": "",
+                  "description": "Menu Info",
                   "rowId": `${_p}? info`
                 }, {
                   "title": "Tanpa Kategori",
-                  "description": "",
+                  "description": "Menu Tanpa Kategori",
                   "rowId": `${_p}? tanpakategori`
                 }, {
                   "title": "Owner",
-                  "description": "",
+                  "description": "Menu Owner",
                   "rowId": `${_p}? owner`
                 }
               ]

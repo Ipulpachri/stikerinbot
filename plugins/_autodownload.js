@@ -17,7 +17,7 @@ handler.before = async function (m, { isPrems }) {
         let json = await res.json()
         if (!json.status) return m.reply(this.format(json))
         await m.reply(wait)
-        await this.sendFile(m.chat, json.videoSD, '', '© stikerin', m)
+        await this.sendFile(m.chat, json.videoSD, '', '© Fachri', m)
     }
 
     if (/https?:\/\/i\.coco\.fun\//i.test(m.text)) {
@@ -25,7 +25,7 @@ handler.before = async function (m, { isPrems }) {
         if (!res.ok) return m.reply(eror)
         let json = await res.json()
         await m.reply(wait)
-        await this.sendFile(m.chat, json.download, '', '© stikerin', m)
+        await this.sendFile(m.chat, json.download, '', '© Fachri', m)
     }
 
     if (/https?:\/\/(fb\.watch|(www\.|web\.|m\.)?facebook\.com)/i.test(m.text)) {
@@ -34,7 +34,7 @@ handler.before = async function (m, { isPrems }) {
         let json = await res.json()
         if (!json.status) return m.reply(this.format(json))
         await m.reply(wait)
-        await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nUkuran: ${json.data.hd.size}\n\n© stikerin`, m)
+        await conn.sendFile(m.chat, json.data.sd.url, '', `HD: ${json.data.hd.url}\nUkuran: ${json.data.hd.size}\n\n© Fachri`, m)
     }
 
     if (/https?:\/\/(www\.)?instagram\.com\/(p|reel|tv)/i.test(m.text)) {
@@ -42,7 +42,7 @@ handler.before = async function (m, { isPrems }) {
             let json = JSON.parse(JSON.stringify(res))
             await m.reply(wait)
             for (let { downloadUrl, type } of json) {
-                this.sendFile(m.chat, downloadUrl, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), '© stikerin', m)
+                this.sendFile(m.chat, downloadUrl, 'ig' + (type == 'image' ? '.jpg' : '.mp4'), '© Fachri', m)
             }
         }).catch(_ => _)
     }
@@ -62,7 +62,7 @@ handler.before = async function (m, { isPrems }) {
             let pesan = json.data.map((v) => `Link: ${v.url}`).join('\n------------\n')
             await m.reply(wait)
             for (let { url } of json.data) {
-                this.sendFile(m.chat, url, 'tw' + (/mp4/i.test(url) ? '.mp4' : '.jpg'), '© stikerin', m)
+                this.sendFile(m.chat, url, 'tw' + (/mp4/i.test(url) ? '.mp4' : '.jpg'), '© Fachri', m)
             }
         }).catch(_ => _)
     }
@@ -89,7 +89,7 @@ handler.before = async function (m, { isPrems }) {
 *Ukuran File Audio:* ${filesizeF}
 *Ukuran File Video:* ${yt2.filesizeF}
 *Server y2mate:* ${usedServer}
-`.trim(), '© stikerin', 'Audio', `.yta ${vid.url}`, 'Video', `.ytv ${vid.url}`)
+`.trim(), '© Fachri', 'Audio', `.yta ${vid.url}`, 'Video', `.ytv ${vid.url}`)
     }
 
     return !0

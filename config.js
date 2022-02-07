@@ -9,6 +9,7 @@ global.APIs = { // API Prefix
   bx: 'https://bx-hunter.herokuapp.com',
   rey: 'https://server-api-rey.herokuapp.com',
   dhnjing: 'https://dhnjing.xyz',
+  lol: 'https://api.lolhuman.xyz',
   hardianto: 'https://hardianto-chan.herokuapp.com',
   neoxr: 'https://api.neoxr.eu.org',
   nrtm: 'https://nurutomo.herokuapp.com',
@@ -20,6 +21,7 @@ global.APIs = { // API Prefix
 global.APIKeys = { // APIKey nya disini
   // 'https://website': 'apikey'
   'https://melcanz.com': 'trial',
+  'https://api.lolhuman.xyz': 'Dawnfrostkey',
   'https://server-api-rey.herokuapp.com': 'apirey',
   'https://bx-hunter.herokuapp.com': 'Ikyy69',
   'https://hardianto-chan.herokuapp.com': 'hardianto',

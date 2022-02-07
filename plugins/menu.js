@@ -188,7 +188,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (teks == '404') {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
-          "title": `${ucapan()}, kak ${name}`.trim(),
+          "title": `${ucapan()}, Kak ${name}`.trim(),
           "description": "© Fachri",
           "footerText": "Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada owner.",
           "buttonText": "Klik Disini",

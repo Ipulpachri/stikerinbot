@@ -17,7 +17,7 @@ _Oke udah itu aja terimakasih_
 conn.send3ButtonLoc(m.chat, await (await fetch(fla + 'Fachri')).buffer(), ext, 'Recoded By Fachri', 'Nomor Owner', '.owner', 'Donasi', '.donasi', 'Sewa Bot', '.owner', m)
 
 }
-handler.help = ['owner', 'creator']
+handler.help = ['infowner','infocreator']
 handler.tags = ['info']
 handler.command = /^infowner$/i
 handler.owner = false
@@ -31,4 +31,4 @@ handler.botAdmin = false
 
 handler.fail = null
 
-module.exports = handler
+module.exports = rhandler

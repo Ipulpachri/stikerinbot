@@ -26,7 +26,7 @@ function kyun(seconds){
 
   //return pad(hours) + ':' + pad(minutes) + ':' + pad(seconds)
 
-  return `┌─〔 Status 〕\n├ Bot telah aktif selama\n├ ${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik\n└────────────`
+  return `┌─〔 Runtime 〕\n├ Bot telah aktif selama\n├ ${pad(hours)} Jam ${pad(minutes)} Menit ${pad(seconds)} Detik\n└────────────`
 
 }
 

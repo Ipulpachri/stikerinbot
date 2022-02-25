@@ -36,7 +36,7 @@ global.packname = 'Bot WhatsApp'
 global.author = 'SF BOTZ'
 
 global.wm = '© SF BOTZ by Fachri'
-global.wait = '_*tunggu sedang diproses...*_'
+global.wait = '_*tunggu sebentar...*_'
 global.eror = '_*Server Error*_'
 global.benar = '✅'
 global.salah = '❌'

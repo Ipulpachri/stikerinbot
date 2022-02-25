@@ -29,7 +29,7 @@ before: `
   footer: '└────\n',
   after: `
 *Fachri@^%version*
-${'```%npmdesc```'}
+WhatsApp Bot
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
